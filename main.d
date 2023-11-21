@@ -6,7 +6,7 @@ import io;
 
 int main()
 {
-    string filepath = "/home/eka/Projects/Dlang/test/input";
+    string filepath = "/home/mvlas/dlangtour/input";
     int[] data = parse_input(filepath);
     solve_sort_indexes(data);
     return 0;

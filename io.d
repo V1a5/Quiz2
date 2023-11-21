@@ -37,6 +37,22 @@ template print(T){
         }
         writeln();
     }
-}
+    
+    void printIndex(T[] arr){
+        for(int i=0; i<arr.length; i++)
+    {
+        writef("%d ", arr[i].index);
+    }
+    writeln();
+    }
 
+    void printValue(T[] arr){
+        for(int i=0; i<arr.length; i++)
+        {
+            writef("%d ", arr[i].value);
+        }
+        writeln();
+    }
+
+}
 
